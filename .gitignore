@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+steps.json
+golden.json
+golden.json.bak
+*.trace
