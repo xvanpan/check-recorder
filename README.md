@@ -34,12 +34,6 @@ chmod +x recorder.py
 ./recorder.py replay --elf ./pwn --cwd . --golden golden.json
 ```
 
-加固/改版后再跑第 3 步：
-
-```bash
-./recorder.py replay --elf ./pwn --cwd ./patched --golden golden.json
-# REPLAY PASS  (1553 字节一致, exit=0)
-```
 
 ## 录制模式
 
